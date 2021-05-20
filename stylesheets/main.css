@@ -1,0 +1,11 @@
+@import "./header.css";
+@import "./appsContainer.css";
+@import "./titleCard.css";
+@import "./appTitleCard.css";
+@import "./aboutMe.css";
+@import "./toggleButtons.css";
+@import "./contactMe.css";
+
+body {
+  background-color: seashell;
+}

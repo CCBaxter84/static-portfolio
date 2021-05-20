@@ -1,0 +1,17 @@
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Courier Prime';
+  width: 300px;
+  margin: 20px 0;
+}
+
+.contact-info > a {
+  color: steelblue;
+}
+
+.contact-info > a:hover {
+  color: mediumvioletred;
+}

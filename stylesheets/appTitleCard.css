@@ -1,0 +1,104 @@
+.title-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  width: 350px;
+  height: 400px;
+  font-family: 'Montserrat';
+  color: indigo;
+}
+
+.title-and-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.gif {
+  width: 360px;
+  height: 225px;
+}
+
+.title-card-container > article {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.title-card-container > article > ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-card {
+  position: relative;
+  background-color: transparent;
+  perspective: 1000px;
+  height: 230px;
+  width: 400px;
+}
+
+.title-card-inner {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  transition: 0.8s;
+  transform-style: preserve-3d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title-card-front > img {
+  border-radius: 10px;
+  border: 1px solid indigo;
+  box-shadow: 0px 0px 10px indigo;
+}
+
+.title-card:hover .title-card-inner {
+  transform: rotateY(180deg);
+}
+
+.title-card-front, .title-card-back {
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.title-card-back {
+  transform: rotateY(180deg);
+  background-color: lightsteelblue;
+  height: 220px;
+  width: 360px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid indigo;
+  box-shadow: 0px 0px 20px indigo;
+}
+
+.text-box {
+  position: relative;
+  margin-top: 20%;
+}
+
+.text-box > a {
+  text-decoration: none;
+}
+
+.text-box > a:hover {
+  font-weight: 900;
+  text-shadow: 0px 0px 5px slateblue;
+}
+
+.tools {
+  height: 60px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .title-card-container {
+    margin-left: 75px;
+  }
+}

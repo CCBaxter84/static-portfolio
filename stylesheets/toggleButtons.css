@@ -1,0 +1,26 @@
+.buttons {
+  margin-top: 10px;
+  display: flex;
+  width: 350px;
+  justify-content: space-around;
+}
+
+button {
+  border: 2px solid grey;
+  border-radius: 15px;
+  min-height: 30px;
+  min-width: 120px;
+  font-size: large;
+  color: grey;
+  background-color: whitesmoke;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: lightgrey;
+}
+
+.selected {
+  border: 2px solid mediumvioletred;
+  color: mediumvioletred;
+}
