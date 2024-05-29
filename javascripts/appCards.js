@@ -1,9 +1,17 @@
 const data = [
   {
+    gif: "./img/wedding-site.gif",
+    title: "Wedding Site",
+    desc: "JAMStack app with Server-less Functions",
+    tools: ["Vue", "TypeScript", "Netlify", "Fauna", "Pinia"],
+    link: "https://clarkwedding.netlify.app/",
+    gitHub: "https://github.com/CCBaxter84/wedding-site-v2"
+  },
+  {
     gif: "./img/sw-lib.gif",
     title: 'Star Wars Novels Holocron',
     desc: 'Full-stack library app with Server-Side-Rendering, Security, & Authentication',
-    tools: ['TypeScript', 'Express', 'Mongoose', 'CSS Flex & Grid', 'Passport', 'Mocha / Chai', 'Helmet & csurf', 'Handlebars'],
+    tools: ['TypeScript', 'Express', 'Node', 'Mocha / Chai', 'Mongoose', 'MongoDB', 'Passport', 'Helmet & csurf'],
     link: 'https://star-wars-novels-holocron.herokuapp.com/',
     gitHub: 'https://github.com/CCBaxter84/EU-Books'
   },
@@ -11,7 +19,7 @@ const data = [
     gif: "./img/weather.gif",
     title: 'Weather Almanac',
     desc: 'Full-stack app with separate view and business logic; utilizes Open Weather API',
-    tools: ['React / JavaScript', 'React Chartjs 2', 'Mongoose', 'Styled Components', 'useMemo', 'useReducer', 'Prop Types', 'React Router'],
+    tools: ['React', 'JavaScript', 'React Chartjs', 'Styled Components', 'Mongoose', 'MongoDB'],
     link: 'https://agile-lake-03285.herokuapp.com/',
     gitHub: 'https://github.com/CCBaxter84/Weather-App'
   },
@@ -19,7 +27,7 @@ const data = [
     gif: "./img/MW.gif",
     title: 'Mediation Works 2',
     desc: 'Full-stack Mediation Consulting Business Website for a local Small Business',
-    tools: ['React', 'Express', 'Node', 'TypeScript', 'CSS Flex', 'Mongoose'],
+    tools: ['React', 'TypeScript', 'Express', 'Node', 'CSS', 'MongoDB'],
     link: 'https://safe-basin-63878.herokuapp.com/',
     gitHub: 'https://github.com/CCBaxter84/MediationWorks'
   },
@@ -30,6 +38,14 @@ const data = [
     tools: ['React', 'React Hooks', 'JavaScript', 'CSS'],
     link: 'https://ccbaxter84.github.io/red-october',
     gitHub: 'https://github.com/CCBaxter84/red-october'
+  },
+  {
+    gif: "./img/star-wars-intro.gif",
+    title: 'Star Wars Intro Scroll',
+    desc: 'Front-end Star Wars Movie Intro replicated with only HTML and CSS',
+    tools: ['HTML', 'CSS'],
+    link: 'https://ccbaxter84.github.io/star-wars-intro/',
+    gitHub: 'https://github.com/CCBaxter84/star-wars-intro'
   },
   {
     gif: "./img/mern-shopping-list.gif",
@@ -46,30 +62,6 @@ const data = [
     tools: ['React', 'React Hooks', 'JavaScript', 'CSS'],
     link: 'https://ccbaxter84.github.io/US-History-Quiz-React/',
     gitHub: 'https://github.com/CCBaxter84/US-History-Quiz-React'
-  },
-  {
-    gif: "./img/star-wars-intro.gif",
-    title: 'Star Wars Intro Scroll',
-    desc: 'Front-end Star Wars Movie Intro replicated with only HTML and CSS',
-    tools: ['HTML', 'CSS'],
-    link: 'https://ccbaxter84.github.io/star-wars-intro/',
-    gitHub: 'https://github.com/CCBaxter84/star-wars-intro'
-  },
-  {
-    gif: "./img/puppies.gif",
-    title: 'Puppy Photo Collage',
-    desc: 'Front-end Dynamic Photo Collage using React Router',
-    tools: ['React', 'React Router', 'JavaScript', 'CSS'],
-    link: 'https://ccbaxter84.github.io/Puppies---React-Router/',
-    gitHub: 'https://github.com/CCBaxter84/Puppies---React-Router'
-  },
-  {
-    gif: "./img/mern-shopping-list.gif",
-    title: 'To Do List',
-    desc: 'Front-end Checklist Productivity Web App',
-    tools: ['React', 'React Hooks', 'JavaScript', 'CSS'],
-    link: 'https://ccbaxter84.github.io/To-Do-App-React/',
-    gitHub: 'https://github.com/CCBaxter84/To-Do-App-React'
   },
   {
     gif: "./img/SWJeopardy.gif",
