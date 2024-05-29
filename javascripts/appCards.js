@@ -8,28 +8,12 @@ const data = [
     gitHub: "https://github.com/CCBaxter84/wedding-site-v2"
   },
   {
-    gif: "./img/sw-lib.gif",
-    title: 'Star Wars Novels Holocron',
-    desc: 'Full-stack library app with Server-Side-Rendering, Security, & Authentication',
-    tools: ['TypeScript', 'Express', 'Node', 'Mocha / Chai', 'Mongoose', 'MongoDB', 'Passport', 'Helmet & csurf'],
-    link: 'https://star-wars-novels-holocron.herokuapp.com/',
-    gitHub: 'https://github.com/CCBaxter84/EU-Books'
-  },
-  {
-    gif: "./img/weather.gif",
-    title: 'Weather Almanac',
-    desc: 'Full-stack app utilizes Open Weather API',
-    tools: ['React', 'JavaScript', 'React Chartjs', 'Styled Components', 'Mongoose', 'MongoDB'],
-    link: 'https://agile-lake-03285.herokuapp.com/',
-    gitHub: 'https://github.com/CCBaxter84/Weather-App'
-  },
-  {
-    gif: "./img/MW.gif",
-    title: 'Mediation Works 2',
-    desc: 'Full-stack Mediation Consulting Business Website for a local Small Business',
-    tools: ['React', 'TypeScript', 'Express', 'Node', 'CSS', 'MongoDB'],
-    link: 'https://safe-basin-63878.herokuapp.com/',
-    gitHub: 'https://github.com/CCBaxter84/MediationWorks'
+    gif: "./img/star-wars-intro.gif",
+    title: 'Star Wars Intro Scroll',
+    desc: 'Front-end Star Wars Movie Intro replicated with only HTML and CSS',
+    tools: ['HTML', 'CSS'],
+    link: 'https://ccbaxter84.github.io/star-wars-intro/',
+    gitHub: 'https://github.com/CCBaxter84/star-wars-intro'
   },
   {
     gif: "./img/red-october.gif",
@@ -40,20 +24,12 @@ const data = [
     gitHub: 'https://github.com/CCBaxter84/red-october'
   },
   {
-    gif: "./img/star-wars-intro.gif",
-    title: 'Star Wars Intro Scroll',
-    desc: 'Front-end Star Wars Movie Intro replicated with only HTML and CSS',
-    tools: ['HTML', 'CSS'],
-    link: 'https://ccbaxter84.github.io/star-wars-intro/',
-    gitHub: 'https://github.com/CCBaxter84/star-wars-intro'
-  },
-  {
-    gif: "./img/mern-shopping-list.gif",
-    title: 'Shopping List',
-    desc: "Full-stack productivity app using React's Context API for global state management",
-    tools: ['React', 'React Context', 'Express', 'Node', 'Mongoose', 'Reactstrap'],
-    link: 'https://mern-list-global-state.herokuapp.com/',
-    gitHub: 'https://github.com/CCBaxter84/MERN_Shopping_List'
+    gif: "./img/SWJeopardy.gif",
+    title: 'Star Wars Jeopardy!',
+    desc: 'Front-end Two player version of Jeopardy! with Star Wars categories and a hidden Daily Double',
+    tools: ['JavaScript', 'HTML', 'CSS'],
+    link: 'https://ccbaxter84.github.io/Star-Wars-Jeopardy-JavaScript/',
+    gitHub: 'https://github.com/CCBaxter84/Star-Wars-Jeopardy-JavaScript'
   },
   {
     gif: "./img/history-quiz.gif",
@@ -64,12 +40,32 @@ const data = [
     gitHub: 'https://github.com/CCBaxter84/US-History-Quiz-React'
   },
   {
-    gif: "./img/SWJeopardy.gif",
-    title: 'Star Wars Jeopardy!',
-    desc: 'Front-end Two player version of Jeopardy! with Star Wars categories and a hidden Daily Double',
-    tools: ['JavaScript', 'HTML', 'CSS'],
-    link: 'https://ccbaxter84.github.io/Star-Wars-Jeopardy-JavaScript/',
-    gitHub: 'https://github.com/CCBaxter84/Star-Wars-Jeopardy-JavaScript'
+    gif: "./img/sw-lib.gif",
+    title: 'Star Wars Novels Holocron',
+    desc: 'Full-stack library app with Server-Side-Rendering, Security, & Authentication',
+    tools: ['TypeScript', 'Express', 'Node', 'Mocha / Chai', 'Mongoose', 'MongoDB', 'Passport', 'Helmet & csurf'],
+    gitHub: 'https://github.com/CCBaxter84/EU-Books'
+  },
+  {
+    gif: "./img/weather.gif",
+    title: 'Weather Almanac',
+    desc: 'Full-stack app utilizes Open Weather API',
+    tools: ['React', 'JavaScript', 'React Chartjs', 'Styled Components', 'Mongoose', 'MongoDB'],
+    gitHub: 'https://github.com/CCBaxter84/Weather-App'
+  },
+  {
+    gif: "./img/MW.gif",
+    title: 'Mediation Works 2',
+    desc: 'Full-stack Mediation Consulting Business Website for a local Small Business',
+    tools: ['React', 'TypeScript', 'Express', 'Node', 'CSS', 'MongoDB'],
+    gitHub: 'https://github.com/CCBaxter84/MediationWorks'
+  },
+  {
+    gif: "./img/mern-shopping-list.gif",
+    title: 'Shopping List',
+    desc: "Full-stack productivity app using React's Context API for global state management",
+    tools: ['React', 'React Context', 'Express', 'Node', 'Mongoose', 'Reactstrap'],
+    gitHub: 'https://github.com/CCBaxter84/MERN_Shopping_List'
   },
   {
     gif: "./img/rps.gif",
