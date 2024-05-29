@@ -3,7 +3,7 @@ const data = [
     gif: "./img/wedding-site.gif",
     title: "Wedding Site",
     desc: "JAMStack app with Server-less Functions",
-    tools: ["Vue", "TypeScript", "Netlify", "Fauna", "Pinia"],
+    tools: ["Vue", "TypeScript", "Pinia", "Netlify", "Fauna", "Vite"],
     link: "https://clarkwedding.netlify.app/",
     gitHub: "https://github.com/CCBaxter84/wedding-site-v2"
   },
@@ -18,7 +18,7 @@ const data = [
   {
     gif: "./img/weather.gif",
     title: 'Weather Almanac',
-    desc: 'Full-stack app with separate view and business logic; utilizes Open Weather API',
+    desc: 'Full-stack app utilizes Open Weather API',
     tools: ['React', 'JavaScript', 'React Chartjs', 'Styled Components', 'Mongoose', 'MongoDB'],
     link: 'https://agile-lake-03285.herokuapp.com/',
     gitHub: 'https://github.com/CCBaxter84/Weather-App'
