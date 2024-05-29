@@ -130,10 +130,13 @@ function createAppTitleCard(info) {
   const titleCardBack = createElement("article", "title-card-back");
   const textBox = createElement("article", "text-box");
   const aTag = createElement("a");
-  aTag.href = info.link;
-  const h3 = createElement("h3");
-  h3.textContent = "Open Application";
-  aTag.append(h3);
+  if (!!info.link) {
+    aTag.href = info.link;
+    const h3 = createElement("h3");
+    h3.textContent = "Open Application";
+    aTag.append(h3);
+  }
+
   const aTag2 = createElement("a");
   aTag2.href = info.gitHub;
   const h4 = createElement("h4");
