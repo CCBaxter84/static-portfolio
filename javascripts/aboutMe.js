@@ -19,10 +19,9 @@ short.append(p);
 const long = createElement("article", "about-me");
 long.classList.add("long");
 const p1 = createElement("p");
-p1.textContent = "I started my career in the U.S. Army, working in military intelligence. Upon completing my military service, I transitioned into doing cybersecurity work because it was a natural fit for someone experienced at analyzing threats and risks. Over a five year span, I worked as a cybersecurity consultant, network intrusion detection analyst, and IT auditor.";
-const p2 = createElement("p");
-p2.textContent = "As I gained more exposure to scripting, development lifecycles, and data analytics, I realized how much I enjoy building things with software. After spending several months teaching myself to code in my spare time and thinking about my career trajectory, I decided to quit my job to focus primarily on learning to code. I'm currently looking for a full-time software engineering job.";
-long.append(p1, p2);
+p1.textContent = "I'm passionate about solving problems, learning new things, and systems analysis & design. I With more than a decade of experience in the technology sector, I've worked as a software engineer, cybersecurity consultant, cybersecurity engineer, & network intrusion detection analyst. I'm also a military veteran and was a nerd long before it became cool to be into Star Wars, super-heroes, & games. Nowadays, being a dad doesn't leave time for such things, though."
+
+long.append(p1);
 
 const contactMe = createElement("section", "contact-info");
 const a1 = createElement("a");
